@@ -1,4 +1,4 @@
-# H3 ToDo API
+# Backend
 
 Dette er en simpel web API til at håndtere opgaver. API'et er skrevet i Rust.
 
