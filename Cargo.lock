@@ -246,6 +246,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa"
 
 [[package]]
+name = "backend"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "anyhow",
+ "diesel",
+ "dotenvy",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "backtrace"
 version = "0.3.69"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -502,6 +514,10 @@ checksum = "e13624c2627564efccf4934284bdd98cbaa14e79b0b5a141218e507b3a823456"
 dependencies = [
  "percent-encoding",
 ]
+
+[[package]]
+name = "frontend"
+version = "0.1.0"
 
 [[package]]
 name = "futures-core"
@@ -1110,18 +1126,6 @@ name = "tinyvec_macros"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1f3ccbac311fea05f86f61904b462b55fb3df8837a366dfc601a0161d0532f20"
-
-[[package]]
-name = "todos"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "anyhow",
- "diesel",
- "dotenvy",
- "serde",
- "serde_json",
-]
 
 [[package]]
 name = "tokio"
