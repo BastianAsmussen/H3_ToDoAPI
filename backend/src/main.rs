@@ -25,7 +25,7 @@ async fn main() -> Result<()> {
             .service(api::routes::update_todo)
             .service(api::routes::delete_todo)
     })
-    .bind(("127.0.0.1", 8080))?
+    .bind(("0.0.0.0", 5000))?
     .run()
     .await?;
 
