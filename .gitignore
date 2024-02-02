@@ -1,5 +1,8 @@
 # Rust
 /target
 
-# JetBrains IDEs
-.idea
+# JetBrains
+/.idea
+
+# Environment
+.env
