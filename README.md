@@ -25,7 +25,7 @@ Når du har installeret Rust og Cargo, kan du køre følgende kommando for at k�
 
 ### Start en lokal PostgreSQL-database
 ```bash
-echo "DATABASE_URL=postgres://username:password@localhost/todo_api" > .env
+echo "DATABASE_URL=postgres://username:password@localhost/dbname" > .env
 
 cargo install diesel_cli --no-default-features --features postgres
 diesel migration run
